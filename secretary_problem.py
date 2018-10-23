@@ -1,12 +1,15 @@
+from __future__ import print_function
+from __future__ import division
 import itertools
 import math
+
 
 
 #------start of input area---------
 
 
 #total number of applicants
-people_num = 15
+people_num = 10
 
 
 #------end of input area---------
@@ -63,8 +66,8 @@ for x in range(0,people_num):
 
     p = (get_max_num/N)*100
 
-    #print('x = ',x+1,'p = ',p,'%')
-    print('when the interviewer rejects the first',x+1,'the probability that the best applicant is selected is',p,'%')
+
+    print('when the interviewer rejects the first',x+1,'people,','the probability that the best applicant is selected is',p,'%')
     print('')
 
 
